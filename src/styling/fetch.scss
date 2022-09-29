@@ -1,0 +1,58 @@
+div.feed-container{
+    padding: 20px 200px;
+    margin: 0px auto;
+    margin-top: 200px;
+    border: solid black 2px;
+    width: 50%;
+
+    h1.city{
+        font-size: 2em;
+        font-weight: 400;
+        margin: 0px;
+    }
+
+    p.date{
+        margin: 0px;
+        font-weight: 100;    
+    }
+
+    div.weath-temp-body{
+        margin: 10px 0px;
+        display: flex;
+        justify-content: space-between;    
+
+        h1{
+            font-size: 2em;
+            font-weight: 500;
+            margin: 0px;
+        }
+
+        p{
+            margin: 0px;
+            font-weight: 100;    
+        }
+
+    }
+
+
+    div.weath-temp-footer{
+
+        table{
+            width: 100%;
+        }
+
+        th,td{
+            text-align: center;
+        }
+
+        table th{
+            font-weight: 100;
+        }
+
+        td{
+            font-weight: 500;
+            font-size: 1.5em;    
+        }
+
+    }
+}
